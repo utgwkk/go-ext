@@ -1,1 +1,1 @@
-# sqlxext
+# go-snippets

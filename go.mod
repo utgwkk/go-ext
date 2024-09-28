@@ -1,4 +1,4 @@
-module github.com/utgwkk/sqlxext
+module github.com/utgwkk/go-snippets
 
 go 1.21
 
