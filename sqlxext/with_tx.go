@@ -1,4 +1,4 @@
-package sqlxsnippet
+package sqlxext
 
 import (
 	"context"

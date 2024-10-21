@@ -1,4 +1,4 @@
-package mysqlsnippet
+package mysqlext
 
 import (
 	"errors"

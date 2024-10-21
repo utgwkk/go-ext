@@ -1,4 +1,4 @@
-module github.com/utgwkk/go-snippets
+module github.com/utgwkk/go-ext
 
 go 1.21
 
