@@ -1,4 +1,4 @@
-package safemysql
+package mysqldialect
 
 import (
 	"fmt"
