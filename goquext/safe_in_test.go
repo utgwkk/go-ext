@@ -7,7 +7,7 @@ import (
 	_ "github.com/doug-martin/goqu/v9/dialect/sqlite3"
 )
 
-func ExampleIn() {
+func Example_safeIn() {
 	dialect := goqu.Dialect("sqlite3")
 	var query string
 
