@@ -21,7 +21,8 @@ func IsErrDuplicateEntry(err error) bool {
 	if !ok {
 		return false
 	}
-	return mysqlErr.Number == 1586
+	// ER_DUP_ENTRY
+	return mysqlErr.Number == 1062
 }
 
 func IsErrDeadlockFound(err error) bool {
