@@ -1,11 +1,10 @@
-module github.com/utgwkk/go-ext
+module github.com/utgwkk/go-ext/mysqlext
 
 go 1.22
 
 toolchain go1.23.4
 
 require (
-	github.com/doug-martin/goqu/v9 v9.19.0
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/ory/dockertest/v3 v3.11.0
