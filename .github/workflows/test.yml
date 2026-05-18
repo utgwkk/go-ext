@@ -15,4 +15,7 @@ jobs:
         with:
           go-version-file: go.work
 
-      - run: go test ./...
+      - run: |
+          for dir in goquext jsonext mysqlext sqlxext; do
+            (cd "$dir" && go test ./...)
+          done
