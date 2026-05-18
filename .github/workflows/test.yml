@@ -16,6 +16,6 @@ jobs:
           go-version-file: go.work
 
       - run: |
-          for dir in goquext jsonext mysqlext sqlxext; do
+          for dir in $(go work edit -json | jq -r '.Use[].DiskPath'); do
             (cd "$dir" && go test ./...)
           done
